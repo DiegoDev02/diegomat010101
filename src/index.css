@@ -1,1 +1,17 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* cambio el color de fondo*/
+  background: #111;
+    /* cambio el color de texto */
+  color: white;
+  /* Eliminamos las decoraciones que pueden chocar con mi codigo*/
+  text-decoration: none;
+}

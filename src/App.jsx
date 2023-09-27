@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-//import { MyRoutes } from './routers/routes';
+import { MyRoutes } from './routers/routes';
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <div>
       <header>
         <h1 className='title'>🎬Películas</h1>
+        <MyRoutes />
       </header>
       
     </div>
